@@ -1,0 +1,40 @@
+nav {
+    width:100%;
+    padding: 0.7rem 1.7rem;
+    display: flex;
+    gap: 0.8rem;
+    backdrop-filter: blur(15px);
+    margin: 0;
+    background-color: #234E70;
+    border-bottom: 1px solid #234E70;
+
+}
+
+nav a {
+    padding: 1rem;
+}
+
+
+.nav-titles {
+    background: transparent;
+    display: flex;
+    color: #FBF8BE;
+    position: relative;
+    font-size: 0.9rem;
+    top: 0.5rem;
+}
+
+.nav-logo {
+    width: 2rem;
+    height: 2rem;
+    color: #FBF8BE;
+    position: relative;
+}
+
+.nav-logo:hover {
+    color: aliceblue;
+}
+
+.nav-titles:hover {
+    color: aliceblue;
+}
